@@ -1,0 +1,40 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# Dependências específicas do Python
+lib/
+lib64/
+parts/
+sdist/
+eggs/
+.eggs/
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e outros arquivos gerados
+*.log
+*.pot
+*.pyc
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos de cache
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+pip-wheel-metadata/
